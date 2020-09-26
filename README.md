@@ -15,9 +15,11 @@ The fact that the Folium results are interactive makes this library very useful 
 
 ## Taking coordinates
      locate = folium.Map(location=[longitude,latutude])
+     
 Here 'locate is the name given to the location whose coordinates are fetched using folium.map() function.
 The user needs to fulfil longitude and latitude respectively before running the program.
 
 ## Saving as HTML file
      locate.save("location1.html")
+     
 Locate is saved using the save() function in a custom HTML file (here named as location1.html)
